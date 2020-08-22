@@ -16,7 +16,6 @@ class App {
   getGrades(){
     $.ajax({
       method: "GET",
-      data: "none",
       headers: {
         "X-Access-Token": "9uwHKear"
       },
