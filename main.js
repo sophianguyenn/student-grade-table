@@ -1,4 +1,4 @@
-var tableElement = document.querySelector('student-grade-table');
+var tableElement = document.querySelector('table');
 var gradeTable = new GradeTable(tableElement);
 
 var studentGrades = new App(gradeTable);
